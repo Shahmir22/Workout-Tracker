@@ -4,9 +4,6 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-// const WorkoutsApiRoutes = require("./routes/apiRoutes");
-// const WorkoutsHtmlRoutes = require("./routes/htmlRoutes");
-
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
